@@ -7,7 +7,7 @@ namespace PhasmoMelonMod
 {
     class ESP
     {
-        // Used for Printing Position of Player on a KeyPress
+        // Used for Printing Position of Player on a KeyPress and to display multiple saved positions.
         public static List<Vector3> saved_positions = new List<Vector3>();
 
         public static void Enable()
